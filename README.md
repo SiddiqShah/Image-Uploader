@@ -70,15 +70,6 @@ You can read more about the API in their [official documentation](https://fakest
 
 
 # 3. Widget Tree
-Scaffold
- ├── AppBar
- ├── Column
- │    ├── SizedBox
- │    ├── Expanded
- │    │     └── GridView (shows images)
- │    └── Container (Row of buttons)
- │          ├── Upload
- │          ├── Add
- │          └── Clear All
+![3](https://github.com/user-attachments/assets/7dc81910-787f-497f-a848-dbec89e3b4ce)
 
  
