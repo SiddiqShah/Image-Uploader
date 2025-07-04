@@ -39,39 +39,7 @@ You can read more about the API in their [official documentation](https://fakest
 
 
 # 1. High-Level Flow Diagram
-+-------------------+
-|   User Interface  |
-|  (Flutter Widget) |
-+-------------------+
-          |
-          v
-+-------------------+         +---------------------+
-|  User Taps Button |-------> |  Image Picker Opens |
-+-------------------+         +---------------------+
-          |                            |
-          v                            v
-+-----------------------------------------------+
-|  User selects images from gallery             |
-+-----------------------------------------------+
-          |
-          v
-+-------------------+    +------------------------+
-| Images List in    |<---| Shared Preferences     |
-| App State         |    | (save image paths)     |
-+-------------------+    +------------------------+
-          |
-          v
-+----------------------------+
-| Display Images in GridView |
-+----------------------------+
-          |
-          v
-+--------------------------------------------+
-| User taps:                                 |
-|   "Upload" --> Send images to API          |
-|   "Clear All" --> Remove all images        |
-|   "X" on image --> Remove one image        |
-+--------------------------------------------+
+![2](https://github.com/user-attachments/assets/2b305b42-5093-489b-8165-89143975425a)
 
 
 # 2. Button and API call flow
