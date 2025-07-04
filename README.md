@@ -39,6 +39,7 @@ You can read more about the API in their [official documentation](https://fakest
 
 
 # 1. High-Level Flow Diagram
+
 +-------------------+
 |   User Interface  |
 |  (Flutter Widget) |
@@ -72,6 +73,7 @@ You can read more about the API in their [official documentation](https://fakest
 |   "Clear All" --> Remove all images        |
 |   "X" on image --> Remove one image        |
 +--------------------------------------------+
+
 
 # 2. Button and API call flow
       +------------------+
