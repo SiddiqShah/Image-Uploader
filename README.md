@@ -39,7 +39,6 @@ You can read more about the API in their [official documentation](https://fakest
 
 
 # 1. High-Level Flow Diagram
-
 +-------------------+
 |   User Interface  |
 |  (Flutter Widget) |
